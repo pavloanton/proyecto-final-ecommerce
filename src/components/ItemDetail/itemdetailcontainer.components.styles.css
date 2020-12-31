@@ -1,0 +1,30 @@
+.validateProduct {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.validateProduct .backHome{
+    display: block;
+    width: 150px;
+    height: 35px;
+    max-width: 150px;
+    line-height: 33px;
+    padding: 0;
+    border: 2px solid #898989;
+    color: #898989;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 12px;
+    margin: 0 auto;
+    margin-top: 20px;
+    transition: all ease-in-out 0.3s;
+}
+
+.validateProduct .backHome:hover{
+    background: #898989;
+    border-color: #898989;
+    color: #fff;
+    text-decoration: none;
+}

@@ -1,0 +1,14 @@
+.btnProcesar {
+    background-color: #990000;
+    border: none;
+    color: #ffffff;
+    float: right;
+  }
+  
+  .btnProcesar:hover,
+  .btnProcesar:focus,
+  .btnProcesar:active {
+    background-color: #c50000 !important;
+    color: white;
+    box-shadow: none !important;
+  }

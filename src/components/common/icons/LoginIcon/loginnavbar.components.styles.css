@@ -1,0 +1,62 @@
+.loginMessage {
+    position: absolute;
+    top: 20px;
+    right: 15%;
+    font-size: 25px;
+    max-width: 300px;
+  }
+  
+  @media screen and (max-width: 991px) {
+    .loginMessage {
+      left: 110px;
+    }
+  }
+  
+  .loginMessage a {
+    color: white;
+    transition: color 200ms ease-out 0.2s;
+  }
+  
+  .loginMessage a:hover {
+    color: #4caf50;
+  }
+  
+  .txtLogin {
+    color: white;
+    font-size: 13px;
+  }
+  
+  @media screen and (max-width: 460px) {
+    .txtLogin {
+      display: none;
+    }
+  }
+  
+  .txtWelcome {
+    position: absolute;
+    top: 0px;
+    left: 40px;
+  }
+  
+  .txtUser {
+    position: absolute;
+    font-weight: bold;
+    top: 16px;
+    left: 40px;
+    width: 190px;
+  }
+  
+  .logIn {
+    display: block;
+  }
+  
+  .logOut {
+    display: none;
+    color: white;
+    cursor: pointer;
+    transition: color 200ms ease-out 0.2s;
+  }
+  
+  .logOut:hover {
+    color: #4caf50;
+  }

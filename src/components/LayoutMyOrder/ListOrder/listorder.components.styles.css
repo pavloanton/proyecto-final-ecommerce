@@ -1,0 +1,6 @@
+.tableOrders{
+    position: relative;
+    display: block;
+    overflow: auto;
+    margin-top: 20px;
+}

@@ -1,0 +1,8 @@
+.txtTotal{
+    text-align: initial;
+    text-transform: uppercase;
+    font-size: 20px;
+    width: 100%;
+    max-width: 200px;
+    display: inline-block;
+}

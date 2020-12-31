@@ -1,0 +1,96 @@
+footer{
+    background-color: #f4f5fa;
+}
+
+.suscribe_title{
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+
+.suscribe_description{
+    position: relative;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    color:black;
+    line-height: 30px;
+    max-width: 500px;
+}
+
+.formSuscribe{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 500px;
+}
+
+.formSuscribe #inputEmail{
+    position: relative;
+    display: inline-block;
+    border-radius: 10px 0px 0px 10px;
+    max-width: 70%;
+    border: 1px solid transparent;
+    height: 51px;
+}
+
+    @media (max-width: 430px) {
+        .formSuscribe #inputEmail {
+            display: block;
+            max-width: 90%;
+            margin: 0 auto;
+        }
+    }
+
+.formSuscribe #inputEmail:focus{
+    border-color: white;
+    box-shadow: none;
+}
+
+.formSuscribe .btnSuscribe{
+    position: relative;
+    display: inline-block;
+    border-radius: 0px 10px 10px 0px;
+    vertical-align: initial;
+    height: 50px;
+    background-color: #990000;
+    text-transform: uppercase;
+    font-weight: 900;
+    border-color: #990000;
+}
+
+    @media (max-width: 430px) {
+        .formSuscribe .btnSuscribe{
+            display: block;
+            width: 90%;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+    }
+
+.formSuscribe .btnSuscribe:focus, .btnSuscribe:not(:disabled):not(.disabled):active{
+    border-color: #990000;
+    box-shadow: none;
+    background-color: #990000;
+}
+
+.alertSuscribe{
+    position: relative;
+    display: block;
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.alertNewsletter{
+     display: none;
+}

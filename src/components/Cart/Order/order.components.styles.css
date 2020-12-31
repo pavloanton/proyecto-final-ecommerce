@@ -1,0 +1,18 @@
+.formOrder {
+    position: absolute;
+    display: none;
+    width: 500px;
+    margin: 0 auto;
+    bottom: 0;
+    left: 10%;
+  }
+  
+  .messageOrder {
+    display: none;
+  }
+  
+  .errorInput,
+  .errorInput:focus {
+    border: 1px solid red;
+    box-shadow: none;
+  }

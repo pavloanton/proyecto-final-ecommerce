@@ -1,0 +1,30 @@
+.sliderHome{
+    position: relative;
+    display: block;
+    height: auto;
+    margin-bottom: 100px;
+  }
+  
+  .sliderHome .slick-dots li button:before{
+    font-size: 15px;
+    margin-top: 30px;
+  }
+  
+  .sliderHome .slideDesktop{
+    display: block;
+  }
+  
+  .sliderHome .slideMobile{
+    display: none;
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 768px) {
+      .sliderHome .slideDesktop{
+      display: none;
+    }
+    
+    .sliderHome .slideMobile{
+      display: block;
+    }
+  }

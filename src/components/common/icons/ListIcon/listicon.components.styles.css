@@ -1,0 +1,19 @@
+.orderIcon{
+    position: absolute;
+    width: 30px;
+    top: 20px;
+    right: 19%;
+    font-size: 25px;
+    color: white;
+    transition: all ease-in-out 0.3s;
+}
+.orderIcon:hover{
+    color: #4caf50;
+}
+
+@media screen and (max-width: 991px) {
+    .orderIcon{
+         right: 0px;
+         left: 70px;
+    }
+}
